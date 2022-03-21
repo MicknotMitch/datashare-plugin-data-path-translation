@@ -1,2 +1,2 @@
 # datashare-plugin-data-path-translation
-Translate path for remotely mounted directories to match end user environment
+Translate the path name for remotely mounted directories to match end user environment
