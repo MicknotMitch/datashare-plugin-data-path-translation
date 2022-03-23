@@ -10,7 +10,7 @@ document.addEventListener('datashare:ready', ({ detail }) => {
         // due to security concerns, browsers no longer allow you to use the "file://" protocol,
         // you will either need to use a browser extentions that enables the file protocol or
         // define a new protocol as described here (for windows) https://stackoverflow.com/questions/80650/how-do-i-register-a-custom-url-protocol-in-windows
-        // I believe this can be done in linux using .desktop files
+        //
       }
     },
     template: `<span v-html="docpath"></span>`
